@@ -37,6 +37,7 @@
 
 <h1>Laptop-Mobiles</h1>
 
+
 <div class="carousel" data-flickity='{"autoPlay":true,"wrapAround":true,"imageLoaded":true}'>
       <div class="carousel-cell">
         <img class="w3-image" src="https://m.economictimes.com/thumb/msid-70450624,width-1200,height-900,resizemode-4,imgsize-273503/dell-expresssign-is-one-of-the-most-impressing-features-on-the-laptop-.jpg">
