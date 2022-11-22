@@ -69,33 +69,26 @@
     <div class="carousel-item active">
       <img src="images/fashion-clothes-banner-template_23-2148578502.webp" alt="Los Angeles" width="1100" height="600">
       <div class="carousel-caption">
-       
+         <h1>Welcome to FASHIONISTA</h1>
       </div>   
     </div>
     <div class="carousel-item">
       <img src="images/fashion-store-banner-template_1361-1248.webp" alt="Chicago" width="1100" height="600">
       <div class="carousel-caption">
-       
+           <h1>Explore your needs</h1>
       </div>   
     </div>
     <div class="carousel-item">
       <img src="images/2eb6dc1b25beedf684e4c67579ceb10b.jpg" alt="New York" width="1100" height="600">
-      <div class="carousel-caption">
-       
-      </div>   
+     
     </div>
     <div class="carousel-item">
       <img src="images/2021-07-31.png" alt="New York" width="1100" height="600">
-      <div class="carousel-caption">
-       
-      </div>   
+     
     </div>
     <div class="carousel-item">
       <img src="images/1_ebe3d6b5-e0a3-4096-98c2-dd30f02fea1f.webp" alt="New York" width="1100" height="600">
-      <div class="carousel-caption">
-        <h3>New York</h3>
-        <p>We love the Big Apple!</p>
-      </div>   
+       
     </div>
   </div>
  <a class="carousel-control-prev" href="#demo" data-slide="prev">
