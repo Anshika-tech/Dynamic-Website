@@ -1,13 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-</head>
-<body>
-     
-</body>
-</html>
+<?php
+
+
+ $con=mysqli_connect('localhost','root');
+ if($con){
+    echo "Connection successful";
+ }
+ else{
+    echo " No Connection";
+ }
+
+ mysqli_select_db($con,'Userdata');
+ $user=$_POST['user'];
+ $email=$_POST['email'];
+ $mobile=$_POST['mobile'];
+ $comments=$_POST['comments'];
+
+ $query=" insert into userinfodata (user,email,mobile,comment) values ('$user','$email','$mobile','$comments')";
+
+ mysqli_query($con,$query );
+ 
+ header('location:index.php');
+
+
+?>
