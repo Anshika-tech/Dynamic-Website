@@ -22,12 +22,12 @@
   <div class="container-fluid">
     <a class="navbar-brand" href="#">FASHIONISTA</a>
 
-  <!-- Toggler/collapsibe Button -->
+ 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
  
-  <!-- Navbar links -->
+ 
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
@@ -45,8 +45,9 @@
       <li class="nav-item">
         <a class="nav-link" href="#contact">Contact Us</a>
       </li>
+      <a href="Login.php"><button class="btn btn-primary">LOGIN</button></a>
     </ul>
-    <form class="d-flex" role="search">
+    <form class="d-flex" role="search" style="margin-left:10px;">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form> 
@@ -209,19 +210,19 @@
 <div id="circle-container">
       <h1 style="display:flex;text-align:center;justify-content:center;">Top Offers on Catagories</h1>
       <div class="circle">
-        <a href="men.php"><img src="images/images.jpg" alt="" /></a>
+        <a href="Login.php"><img src="images/images.jpg" alt="" /></a>
         </div>
       <div class="circle">
-        <a href="women.php"><img src="images/0dd0fddtp1602_1.avif" alt="" /></a>
+        <a href="Login.php"><img src="images/0dd0fddtp1602_1.avif" alt="" /></a>
       </div>
       <div class="circle">
         <a href="kids.php"><img src="images/land-boys_2.jpg" alt="" /></a>
       </div>
       <div class="circle">
-        <a href="Home.php"><img src="images/bedroom-furniture-500x500.webp" alt="" /></a>
+        <a href="kids.php"><img src="images/bedroom-furniture-500x500.webp" alt="" /></a>
       </div>
       <div class="circle">
-        <a href="Accessories.php"><img src="images/me-tws-mini-beat-earpod-for-mobiles-wireless-bluetooth-earphones-original-imafv2669vnvdj6v.webp" alt="" /></a>
+        <a href="kids.php"><img src="images/me-tws-mini-beat-earpod-for-mobiles-wireless-bluetooth-earphones-original-imafv2669vnvdj6v.webp" alt="" /></a>
       </div>
 </div>
 
@@ -235,17 +236,17 @@
         <form action="info.php" method="post">
       <div class="form-group">
            <label>Username</label>
-            <input type="text" name="user" autocomplete="off" class="form-control">
+            <input type="text" name="user" autocomplete="off" class="form-control" size="20" placeholder="enter user name" minlength="3" maxlength="12">
       </div>
 
       <div class="form-group">
-           <label>Email Id</label>
-            <input type="text" name="email" autocomplete="off" class="form-control">
+           <label >Email Id</label>
+            <input type="text" name="email" autocomplete="off" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="sophie@example.com"  size="30" minlength="3" maxlength="30" required/>
       </div>
 
       <div class="form-group">
            <label>Mobile</label>
-            <input type="text" name="mobile" autocomplete="off" class="form-control">
+            <input type="text" name="mobile" autocomplete="off" class="form-control" pattern="^(?:(?:\+|0{0,2})91(\s*|[\-])?|[0]?)?([6789]\d{2}([ -]?)\d{3}([ -]?)\d{4})$"  required>
       </div>
        <div class="form-group">
            <label>Comments</label>
@@ -275,19 +276,19 @@
         <h4>Get help</h4>
         <ul>
         <li><a href="#">FAQ</a></li>
-          <li><a href="about.php">shipping</a></li>
-          <li><a href="about.php">returns </a></li>
-          <li><a href="about.php">order status</a></li>
-          <li><a href="about.php">payment option</a></li>
+          <li><a href="order1.php">shipping</a></li>
+          <li><a href="order1.php">returns </a></li>
+          <li><a href="order1.php">order status</a></li>
+          <li><a href="order1.php">payment option</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Online shop</h4>
         <ul>
-          <li><a href="Accessories.php">watch</a></li>
-          <li><a href="Home.php">kitchen</a></li>
-          <li><a href="men.php">shoes</a></li>
-          <li><a href="women.php">dress</a></li>
+          <li><a href="kids.php">watch</a></li>
+          <li><a href="kids.php">kitchen</a></li>
+          <li><a href="kids.php">shoes</a></li>
+          <li><a href="kids.php">dress</a></li>
         </ul>
       </div>
       <div class="footer-col">
